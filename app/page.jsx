@@ -63,7 +63,7 @@ export default async function HomePage() {
           </span>
           <Link href={`/gallery/${featured.slug || featured._id}`}
             className="mono ml-auto text-[9px] transition hover:opacity-80"
-            style={{ color: "#444" }}>→</Link>
+            style={{ color: "#C9A96E" }}>→</Link>
         </div>
       )}
     </main>
