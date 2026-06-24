@@ -109,7 +109,7 @@ export default function AboutPage() {
 
         <div className="mono mt-10 space-y-1 text-[9px] tracking-[.06em] text-[#333]">
           <p>m.abdelazeem@gmai.com</p>
-          <p>+20 1224377363</p>
+          <p>+201006431110</p>
           <p>New Cairo, Egypt</p>
         </div>
       </section>
