@@ -44,9 +44,7 @@ export default function AboutPage() {
         </h2>
 
         <p className="mb-4 text-sm leading-relaxed text-[var(--muted)]">
-          Cairo-based architect with 9 years shaping residential, commercial, and cultural
-          spaces across the Middle East and Africa. Trained at Cairo University and the
-          AA School in London.
+         Cairo-based architect with 3 years of experience in residential, commercial, and cultural spaces. Graduated from Mansoura University, Faculty of Engineering.
         </p>
         <p className="mb-8 text-sm leading-relaxed text-[var(--muted)]">
           Every project starts with a single question: what does this space need to say in 50 years?
