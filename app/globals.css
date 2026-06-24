@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg:        #0A0A0A;
+  --surface:   #141414;
+  --card:      #1C1C1C;
+  --border:    #1E1E1E;
+  --gold:      #C9A96E;
+  --text:      #F0EDE8;
+  --muted:     #888888;
+  --faint:     #444444;
+  --font-serif: var(--font-cormorant), serif;
+  --font-sans:  var(--font-inter), sans-serif;
+  --font-mono:  var(--font-mono), monospace;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar       { width: 4px; }
+::-webkit-scrollbar-track { background: var(--bg); }
+::-webkit-scrollbar-thumb { background: #2A2A2A; border-radius: 2px; }
+
+/* Utility classes used across pages */
+.serif   { font-family: var(--font-serif); }
+.mono    { font-family: var(--font-mono); }
+.gold    { color: var(--gold); }
+.muted   { color: var(--muted); }
+.eyebrow {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  letter-spacing: .2em;
+  text-transform: uppercase;
+  color: var(--gold);
+}
+.gold-line {
+  width: 48px;
+  height: 1px;
+  background: var(--gold);
+}
